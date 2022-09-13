@@ -1,0 +1,33 @@
+num = 25
+(num%5==0)&&(num%11==0)
+(25%5==0)&&(25%11==0)
+T && F
+F
+
+else execute
+
+**********program 6***********
+num = 10
+num%2==0
+10%2==0
+0==0
+T
+even
+
+num=5
+5%2==0
+1==0 > 1!=0
+F
+Odd
+
+**********program 7***********
+cp = 100
+sp = 100
+amt = 10
+
+else both equal 100==100 cp==sp T
+amt = cp - sp
+amt = 100-90
+amt=10
+print amt -> 10
+print no p and no l
