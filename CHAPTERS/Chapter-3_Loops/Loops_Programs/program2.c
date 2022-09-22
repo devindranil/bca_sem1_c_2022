@@ -15,6 +15,7 @@ int main()
     int rev=0;//rev is variable to store reverse of number
     printf("Enter a number: ");
     scanf("%d", &num);
+    int c=num;//c is variable to store original number
     //loop to find reverse of number
     while(num != 0)
     {
@@ -24,11 +25,11 @@ int main()
     }
     
     //check if number is palindrome or not
-    if(num == rev){
-        printf("%d is palindrome", num);
+    if(c== rev){
+        printf("%d is palindrome", c);
     }
     else{
-        printf("%d is not palindrome", num);
+        printf("%d is not palindrome", c);
     }
     
     return 0;

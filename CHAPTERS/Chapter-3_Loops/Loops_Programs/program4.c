@@ -12,26 +12,22 @@ Prime numbers between 1-20: 2, 3, 5, 7, 13, 17, 19
 #include <stdio.h>
 int main()
 {
-    int n1, n2, i, j, sum = 0;
-    printf("Enter range of numbers: ");
-    scanf("%d %d", &n1, &n2);
-    //loop to find prime numbers between n1 and n2
-    for (i = n1; i <= n2; i++)
+    int i,j,n;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+    for(i=2;i<=n;i++)
     {
-        //loop to check if i is prime or not
-        for (j = 2; j <= i; j++)
+        int c=0;
+        for(j=1;j<=i;j++)
         {
-            //check if j is factor of i
-            if (i % j == 0)
+            if(i%j==0)
             {
-                //check if j is equal to i
-                break;
+                c++;
             }
         }
-        //check if j is equal to i
-        if(i==j)
+        if(c==2)
         {
-            printf("%d, ", i);
+            printf("%d ",i);
         }
     }
     return 0;

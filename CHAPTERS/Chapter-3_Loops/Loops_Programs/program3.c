@@ -19,7 +19,7 @@ int main()
     for(i=1;i<=n;i++)//
     {
         //check if i is factor of n
-        if(n%1==0)
+        if(n%i==0)
         {
             count++;//increase count by 1
         }

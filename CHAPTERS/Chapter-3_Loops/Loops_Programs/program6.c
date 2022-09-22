@@ -13,23 +13,23 @@ int main()
 {
     int n,r;//num & r are variables to store number and remainder
     int arm=0;//arm is variable to store sum of cubes of digits
-    int c=n;//c is variable to store number
     printf("Enter a number: ");
     scanf("%d", &n);
+    int c=n;//c is variable to store number
     //loop to find sum of cubes of digits
-    while(n != 0)
+    while(n > 0)
     {
         r = n%10;//find remainder
         arm = arm + (r*r*r);//find sum of cubes of digits
-        n /= 10;//reduce number by 1 digit
+        n =n/10;//reduce number by 1 digit
     }
     
     //check if number is armstrong or not
-    if(n == arm){
-        printf("%d is armstrong number", n);
+    if(c == arm){
+        printf("armstrong number");
     }
     else{
-        printf("%d is not armstrong number", n);
+        printf("not armstrong number");
     }
     
     return 0;

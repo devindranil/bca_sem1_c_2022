@@ -17,4 +17,5 @@ int main(){
         a=b;//assign b to a
         b=c;//assign c to b
     }
+    return 0;
 }

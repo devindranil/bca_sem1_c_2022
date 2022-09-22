@@ -13,12 +13,11 @@ LCM = 60
 int main()
 {
     int n1, n2, max,lcm;
-    printf("Enter two positive integers: ");
-    scanf("%d %d", &n1, &n2);
+    printf("Enter 1st positive integers: \n");
+    scanf("%d", &n1);
+    printf("Enter 2nd positive integers: \n");
+    scanf("%d", &n2);
 
-    // maximum number between n1 and n2 is stored in max
-    //max = (n1 > n2) ? n1 : n2;
-    
     if(n1>n2){
         max = n1;
     }else{

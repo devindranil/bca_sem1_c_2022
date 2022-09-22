@@ -11,30 +11,27 @@ Sum of prime numbers between 1-10: 17
 #include <stdio.h>
 int main()
 {
-    int n1, n2, i, j, sum = 0;
-    printf("Enter range of numbers: ");
-    scanf("%d %d", &n1, &n2);
-    //loop to find prime numbers between n1 and n2
-    for (i = n1; i <= n2; i++)
+    int i,j,n,sum=0;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+    for(i=2;i<=n;i++)
     {
-        //loop to check if i is prime or not
-        for (j = 2; j <= i; j++)
+        int c=0;
+        for(j=1;j<=i;j++)
         {
-            //check if j is factor of i
-            if (i % j == 0)
+            if(i%j==0)
             {
-                //check if j is equal to i
-                break;
-                sum=sum+i;
+                c++;
             }
         }
-        //check if j is equal to i
-        if(i==j)
+        if(c==2)
         {
-            printf("The factors are: %d, \n", i);
+            printf("prime no are: \n",i);
+            sum=sum+i;
         }
     }
-    //print sum of prime numbers
-    printf("Sum of prime numbers between %d+%d: %d", n1, n2, sum);
+    printf("Sum of prime numbers between 1 to %d: %d",n,sum);
+
+    
     return 0;
 }

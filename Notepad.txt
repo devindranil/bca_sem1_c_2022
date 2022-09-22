@@ -1,33 +1,24 @@
-num = 25
-(num%5==0)&&(num%11==0)
-(25%5==0)&&(25%11==0)
-T && F
-F
-
-else execute
-
-**********program 6***********
-num = 10
-num%2==0
-10%2==0
-0==0
-T
-even
-
-num=5
-5%2==0
-1==0 > 1!=0
-F
-Odd
-
-**********program 7***********
-cp = 100
-sp = 100
-amt = 10
-
-else both equal 100==100 cp==sp T
-amt = cp - sp
-amt = 100-90
-amt=10
-print amt -> 10
-print no p and no l
+n=6
+i=6
+sum=6
+for i=1 i<n i++
+        1<6 Yes
+        2<6 Yes
+        3<6 Yes
+        4<6 Yes
+        5<6 Yes
+        6<6 No
+        if n%i==0
+            6%1==0 Yes
+            6%2==0 Yes
+            6%3==0 Yes
+            6%4==0 No
+            6%5==0 No
+                sum=sum+i
+                    =0+1 = 1
+                    =1+2 = 3
+                    =3+3 = 6
+If sum==n 6==6
+    PERFECT
+else
+    Not a perfect

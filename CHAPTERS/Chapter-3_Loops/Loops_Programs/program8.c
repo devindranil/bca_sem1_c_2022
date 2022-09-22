@@ -16,11 +16,11 @@ int main()
     int n,r;
     //sum is variable to store sum of factorial of digits
     int sum=0;
-    //c is variable to store number
-    int c=n;
     //user input
     printf("Enter a number: ");
     scanf("%d", &n);
+    //c is variable to store number
+    int c=n;
     //loop to find sum of factorial of digits
     while(n != 0)
     {
@@ -35,11 +35,11 @@ int main()
     }
     
     //check if number is strong or not
-    if(n == sum){
-        printf("%d is STRONG NUMBER", n);
+    if(c == sum){
+        printf("%d is STRONG NUMBER", c);
     }
     else{
-        printf("%d is not STRONG NUMBER", n);
+        printf("%d is not STRONG NUMBER", c);
     }
     
     return 0;

@@ -14,7 +14,7 @@ int main()
     scanf("%d", &n);
     for(i=1;i<n;i++)
     {
-        if(n%1==0)
+        if(n%i==0)
         {
             sum=sum+i;
         }
