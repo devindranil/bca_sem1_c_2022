@@ -12,22 +12,22 @@ Prime numbers between 1-20: 2, 3, 5, 7, 13, 17, 19
 #include <stdio.h>
 int main()
 {
-    int i,j,n;
-    printf("Enter the value of n: ");
-    scanf("%d", &n);
+    int i,j,n; // i=6
+    printf("Enter the value of n: "); //5
+    scanf("%d", &n);// 1 2 3 4 5
     for(i=2;i<=n;i++)
     {
-        int c=0;
-        for(j=1;j<=i;j++)
+        int c=0; // c=0
+        for(j=1;j<=i;j++) // j=1
         {
             if(i%j==0)
             {
                 c++;
             }
         }
-        if(c==2)
+        if(c==2)//2==2
         {
-            printf("%d ",i);
+            printf("%d ",i);//2 3 5
         }
     }
     return 0;

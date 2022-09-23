@@ -18,7 +18,7 @@ int main()
     int sum=0;
     //user input
     printf("Enter a number: ");
-    scanf("%d", &n);
+    scanf("%d", &n);//145
     //c is variable to store number
     int c=n;
     //loop to find sum of factorial of digits

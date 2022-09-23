@@ -11,7 +11,7 @@ int main()
 {
     int n,i,sum=0;
     printf("Enter a number: ");
-    scanf("%d", &n);
+    scanf("%d", &n);//6
     for(i=1;i<n;i++)
     {
         if(n%i==0)
