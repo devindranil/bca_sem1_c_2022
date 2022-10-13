@@ -1,24 +1,35 @@
-n=6
-i=6
-sum=6
-for i=1 i<n i++
-        1<6 Yes
-        2<6 Yes
-        3<6 Yes
-        4<6 Yes
-        5<6 Yes
-        6<6 No
-        if n%i==0
-            6%1==0 Yes
-            6%2==0 Yes
-            6%3==0 Yes
-            6%4==0 No
-            6%5==0 No
-                sum=sum+i
-                    =0+1 = 1
-                    =1+2 = 3
-                    =3+3 = 6
-If sum==n 6==6
-    PERFECT
-else
-    Not a perfect
+#include <stdio.h>
+int main()
+{
+    int a1,b1;a1,b1,a3,b3
+    int sum1=0,sum2=0,sum3=0;
+    printf("Enter two no: \n");
+    scanf("%d%d",&a1,&b1);
+    printf("Enter two no: \n");
+    scanf("%d%d",&a2,&b2);
+    printf("Enter two no: \n");
+    scanf("%d%d",&a3,&b3);
+    sum1=a1+b1;
+    sum2=a2+b2;
+    sum3=a3+b3;
+    printf("sum=%d",sum1);
+    printf("sum=%d",sum2);
+    printf("sum=%d",sum3);
+    return 0;
+}
+
+10+10 = 20
+20+20 = 40
+30+30 = 60//3 time
+40 + 40 = 80
+50 + 50 = 100
+
+isprime()
+{
+
+}
+
+evenOdd()
+{
+    
+}
