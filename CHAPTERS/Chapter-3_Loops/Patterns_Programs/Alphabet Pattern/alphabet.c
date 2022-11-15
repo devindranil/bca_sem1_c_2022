@@ -24,16 +24,37 @@
 #include <stdio.h>
 int main()
 {
-    int i,j;
-    char n='A';
-    for (i=1;i<=5;i++)
+    //Alphabet pattern - type 1
+    int i, j;
+    for (i = 1; i <= 4; i++)
     {
-        for(j=1;j<=i;j++)
+        for (j = 1; j <= i; j++)
         {
-            printf("%c ",n);
-            //n++;
+            printf("%c ", 64 + j);
         }
-        n++;
-        printf("\n");
+        printf("%c", 10);//new line
     }
+    //Alphabet pattern - type 3
+    int i, j, k = 1;
+    for (i = 1; i <= 4; i++)
+    {
+        for (j = 1; j <= i; j++)
+        {
+            printf("%c ", 64 + k);
+            k++;
+        }
+        printf("%c", 10);//new line
+    }
+
+    //Alphabet pattern - type 2
+    int i, j;
+    for (i = 1; i <= 4; i++)
+    {
+        for (j = 1; j <= i; j++)
+        {
+            printf("%c ", 64 + i);
+        }
+        printf("%c", 10);//new line
+    }
+        
 }
