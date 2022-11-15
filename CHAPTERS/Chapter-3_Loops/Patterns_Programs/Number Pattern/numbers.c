@@ -67,4 +67,28 @@ int main()
         }
         printf("\n");
     }
+
+    //number pattern - type 3
+    int i,j,k,n=1;//i=rows,j=columns,k=spaces,n=numbers
+    for (i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d ",n);
+            n++;
+        }
+        printf("\n");
+    }
+
+    //number pattern - type 1
+    int i,j,n=1;//i=rows,j=columns,n=numbers
+    for (i=1;i<=4;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d ",n);
+            n++;
+        }
+        printf("\n");
+    }
 }
