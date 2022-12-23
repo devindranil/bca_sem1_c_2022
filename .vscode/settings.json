@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "PROGRAM_2.C": "cpp"
+        "PROGRAM_2.C": "cpp",
+        "conio.h": "c"
     }
 }
