@@ -208,7 +208,7 @@ int main()
 }*/
 
 // wap in for loop to calculate the follwoing series 1+x+x2+x3+x4+.......+xn
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int i, n, x, sum = 0, term = 1;
@@ -228,7 +228,7 @@ int main()
     printf("\n");
     printf("the sum of the series is %d\n", sum);
     return 0;
-}
+}*/
 /*#include <stdio.h>
 
 int main()
@@ -299,3 +299,26 @@ int main()
     printf("the roll number of the student who gets the highest total is %d\n", roll_max);
     return 0;
 }*/
+
+//write a program to evaluate the follwoing series: 1-3+5-7+........upto n
+#include <stdio.h>
+int main()
+{
+    int i, n, sum = 0;
+    printf("enter the value of n\n");
+    scanf("%d", &n);
+    //print the series
+    printf("the series is 1");
+    for (i = 3; i <= n; i = i + 2)
+    {
+        if (i % 4 == 1)
+        {
+            printf("+%d", i);
+        }
+        else
+        {
+            printf("-%d", i);
+        }
+    }
+    return 0;
+}
