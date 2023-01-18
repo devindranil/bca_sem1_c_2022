@@ -7,7 +7,7 @@
  * * * *
  * * * * *
  --------------------------------------------
-//2nd pattern - half pyramid - reverse  
+//2nd pattern - half pyramid - reverse
     * * * * *
     * * * *
     * * *
@@ -36,7 +36,7 @@
     * * * * *
 ----------------------------------------------
 
-//6th pattern - 
+//6th pattern -
 
 *****
  ****
@@ -45,41 +45,31 @@
     *
  */
 
-/*#include <stdio.h>
-int main()
-{
-  int i, j;
-  for (i = 1; i <= 5; i++)
-  {
-    for (j = 1; j <= 5; j++)
-    {
-      //(i+j)<=5
-      if(i==1 || i==5 || j==1 || j==5)
-      {
-        printf("*");
-
-      }
-      else{
-        printf(" ");
-      }
-    }
-    printf("\n");
-  }
-  return 0;
-}*/
-
 #include <stdio.h>
 int main()
 {
-  //program to print 6th pattern
-  
-  //program to print mirror right triangle
-  int i, j;
+  /*6th pattern*/
+  /*int i, j, k;
+  for (i = 1; i <= 5; i++)
+  {
+    for (j = 1; j <= i; j++)
+    {
+      printf(" ");
+    }
+    for (k = 5; k >= i; k--)
+    {
+      printf("*");
+    }
+    printf("\n");
+  }*/
+
+  //5th pattern
+  /*int i, j, k;
   for (i = 1; i <= 5; i++)
   {
     for (j = 1; j <= 5; j++)
     {
-      if (j >= i)
+      if (i == 1 || i == 5 || j == 1 || j == 5)
       {
         printf("*");
       }
@@ -89,9 +79,64 @@ int main()
       }
     }
     printf("\n");
-  }
+  }*/
+
+  /*4th pattern*/
+  /*int i, j, k;
+  for (i = 1; i <= 5; i++)
+  {
+    for (j = 5; j >= i; j--)
+    {
+      printf(" ");
+    }
+    for (k = 1; k <= i; k++)
+    {
+      printf("* ");
+    }
+    printf("\n");
+  }*/
+
+  /*3rd pattern-half pyramid*/
+  /*int i, j, k;
+  for (i = 1; i <= 5; i++)
+  {
+    for (j = 5; j >= i; j--)
+    {
+      printf(" ");
+    }
+    for (k = 1; k <= i; k++)
+    {
+      printf("*");
+    }
+    printf("\n");
+  }*/
 
 
-  
+  /*2nd pattern - half pyramid - reverse*/
+  /*/int i, j, k;
+  for (i = 1; i <= 5; i++)
+  {
+    for (j = 1; j <= i; j++)
+    {
+      printf(" ");
+    }
+    for (k = 5; k >= i; k--)
+    {
+      printf("*");
+    }
+    printf("\n");
+  }*/
+
+
+  /*1st pattern*/
+  /*int i, j;
+  for (i = 1; i <= 5; i++)
+  {
+    for (j = 1; j <= i; j++)
+    {
+      printf("*");
+    }
+    printf("\n");
+  }*/
   return 0;
 }
